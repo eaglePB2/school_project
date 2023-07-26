@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!--Meta Version-->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--Favicons & Titles-->
+	<link rel="icon" href="assets/favicon.ico">
+	<title>联合公司的玩具商店 - 主页</title>
+
+	<!--Link Css-->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
+
+	<!--General Css-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Link Jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="upanimation">
+			<img class="logo" src="assets/index_icon/logo.webp" />
+		</div>
+		<div class="downanimation">
+			<br>
+			<br>
+			<div class="icons">
+				<li>
+					<a class="button" href="pages/beyblade">
+						<img class="icon" src="assets/index_icon/beyblade.webp" />
+						Beyblade
+					</a>
+				</li>
+				<li>
+					<a class="button" href="pages/gundam">
+						<img class="icon" src="assets/index_icon/gundam.webp" />
+						Gundam
+					</a>
+				</li>
+				<li>
+					<a class="button" href="pages/lego">
+						<img class="icon" src="assets/index_icon/lego.webp" />
+						Lego
+					</a>
+				</li>
+				<li>
+					<a class="button" href="pages/yugioh">
+						<img class="icon" src="assets/index_icon/yugioh.webp" />
+						Yu-Gi-Oh
+					</a>
+				</li>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.firefly-0.7.js"></script>
+	<script type="text/javascript">
+		$.firefly({
+			color: '#FFDF3C',
+			minPixel: 4,
+			maxPixel: 1,
+			total: 100,
+			on: 'body'
+			//color: '#FFF121',
+		});
+	</script>
+</body>
+
+</html>
