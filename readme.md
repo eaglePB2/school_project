@@ -31,8 +31,8 @@
 - yu-gi-oh —— 用了pdf阅读器 + 幻灯片（caroussel）的功能
 
 # 目前进度：
-- Index：修复完成
-- Beyblade：档案丢失，正在寻找更旧的备份中
-- Gundam：修复完成
-- Lego：修复完成
-- Yu-Gi-Oh：修复完成
+- Index：![](https://geps.dev/progress/100)
+- Beyblade：![](https://geps.dev/progress/1) *档案丢失，正在寻找更旧的备份中*
+- Gundam：![](https://geps.dev/progress/90)
+- Lego：![](https://geps.dev/progress/90)
+- Yu-Gi-Oh：![](https://geps.dev/progress/90)
